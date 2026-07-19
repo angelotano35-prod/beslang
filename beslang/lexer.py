@@ -4,10 +4,10 @@ TOKEN_SPEC = [
     ("NUMBER",  r"\d+(\.\d+)?"),
     ("STRING",  r'"[^"]*"'),
     ("OP",      r"==|!=|<=|>=|\.\.|[+\-*/%=<>(),{}]"),
+    ("COMMENT", r"skl[^\n]*"),
     ("IDENT",   r"[A-Za-z_][A-Za-z0-9_]*"),
     ("SKIP",    r"[ \t]+"),
     ("NEWLINE", r"\n"),
-    ("COMMENT", r"skl[^\n]*"),
     ("MISMATCH", r"."),
 ]
 

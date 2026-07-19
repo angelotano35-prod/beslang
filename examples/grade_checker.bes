@@ -1,0 +1,39 @@
+skl Grade Average Checker - isang simpleng program gamit ang BesLang
+
+norem grade1 = 85
+norem grade2 = 92
+norem grade3 = 78
+norem grade4 = 90
+
+norem kabuuan = grade1 + grade2 + grade3 + grade4
+norem average = kabuuan / 4
+
+chika("Grades: ")
+chika(grade1)
+chika(grade2)
+chika(grade3)
+chika(grade4)
+
+chika("Average grade mo ay:")
+chika(average)
+
+kung (average >= 90) {
+    flex("PETMALU! Summa cum laude ka na, bes!")
+} kundi {
+    kung (average >= 85) {
+        chika("Solid! Dean's lister ka!")
+    } kundi {
+        kung (average >= 75) {
+            chika("Pasado ka, keep going!")
+        } kundi {
+            shet("Shet, kailangan mag-aral pa, bumagsak ka!")
+        }
+    }
+}
+
+skl saan pa gagamitin: bilangin natin papuntang high honors
+norem bilang = 1
+edi (bilang <= 3) {
+    chika("Push mo pa, round " at bilang at "!")
+    norem bilang = bilang + 1
+}

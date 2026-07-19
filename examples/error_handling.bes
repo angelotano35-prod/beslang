@@ -1,0 +1,7 @@
+norem edad = -5
+
+kung (edad < 0) {
+    shet("Shet, hindi pwedeng negative ang edad!")
+}
+
+chika("Valid ang edad mo")

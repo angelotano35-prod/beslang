@@ -1,0 +1,2 @@
+[console_scripts]
+beslang = beslang.cli:main

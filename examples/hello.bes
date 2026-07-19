@@ -1,0 +1,14 @@
+norem pangalan = "Namu"
+chika("Uy " at pangalan at "! Ano chika?")
+
+kung (omsm) {
+    chika("Totoo yan, no cap!")
+} kundi {
+    chika("Eme lang yan bes")
+}
+
+norem bilang = 0
+edi (bilang < 5) {
+    chika(bilang)
+    norem bilang = bilang + 1
+}

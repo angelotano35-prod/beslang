@@ -1,0 +1,15 @@
+bawat i sa 1..15 {
+    kung (i % 15 == 0) {
+        chika("PetmaluWerpa!")
+    } kundi {
+        kung (i % 3 == 0) {
+            chika("Petmalu!")
+        } kundi {
+            kung (i % 5 == 0) {
+                chika("Werpa!")
+            } kundi {
+                chika(i)
+            }
+        }
+    }
+}
